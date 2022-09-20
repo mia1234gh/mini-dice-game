@@ -1,0 +1,33 @@
+.Rolldice {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Rolldice_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rolldice button {
+    align-self: center;
+    color: rgb(234, 226, 226);
+    background-color: rgb(54, 52, 52);
+    font-size: 14px;
+    width: 15em;
+    padding: 1.5em;
+    border: 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-top: 3em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.Rolldice button:hover {
+    background-color: darkslateblue;
+    cursor: pointer;
+}
